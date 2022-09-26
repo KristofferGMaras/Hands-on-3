@@ -15,6 +15,7 @@ def calcenergy(a):    # Calculatesthe potential energy per atom, and more
 
 def run_md():
     use_asap = True
+    print("Im running Forrest")
 
     if use_asap:
         from asap3 import EMT
